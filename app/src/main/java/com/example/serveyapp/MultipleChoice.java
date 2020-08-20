@@ -130,6 +130,7 @@ public class MultipleChoice extends AppCompatActivity {
             {
 
                 intent = new Intent(getApplicationContext(), Dashboard.class);
+                intent.putExtra("b",1);
                 startActivity(intent);
             }
 
